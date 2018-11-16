@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frontend:
+    image: "persephone-frontend:dev"
+    ports:
+     - "8000:8000"
+  api:
+    image: "persephone-web-api:dev"
+    ports:
+     - "8080:8080"
