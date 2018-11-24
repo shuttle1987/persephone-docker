@@ -8,3 +8,13 @@ This uses docker-compose to run the various required docker images.
 You need to have `docker-compose` installed.
 
 See the [official install instructions](https://docs.docker.com/compose/install/)
+
+## Running
+
+To run use the following command:
+
+```sh
+docker-compose up
+```
+
+This will fetch the requisite images the persephone tools project has on Docker hub and will start them up.
