@@ -9,6 +9,10 @@ You need to have `docker-compose` installed.
 
 See the [official install instructions](https://docs.docker.com/compose/install/)
 
+Because the docker-compose.yml file specifies compose file format "3.0" you will need to have at least docker engine 1.13.0+.
+
+For more information on minimum versions see the [Docker official compatibility page](https://docs.docker.com/compose/compose-file/compose-versioning/#compatibility-matrix)
+
 ## Running
 
 To run use the following command:
