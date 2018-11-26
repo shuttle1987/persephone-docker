@@ -13,6 +13,32 @@ Because the docker-compose.yml file specifies compose file format "3.0" you will
 
 For more information on minimum versions see the [Docker official compatibility page](https://docs.docker.com/compose/compose-file/compose-versioning/#compatibility-matrix)
 
+
+### installing a newer docker-compose
+
+If you are on Linux and have an out of date docker-compose we suggest installing it as a user package suing pip.
+
+First create a virtualenvironment:
+
+```sh
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ pip install -U pip
+```
+
+Then install docker-compose via pip:
+
+```sh
+(venv) $ pip install docker-compose
+```
+
+Check if this has worked with:
+
+```sh
+(venv) $ docker-compose --version
+docker-compose version 1.23.1, build b02f130
+```
+
 ## Running
 
 To run use the following command:
