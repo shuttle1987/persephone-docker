@@ -48,3 +48,11 @@ docker-compose up
 ```
 
 This will fetch the requisite images the persephone tools project has on Docker hub and will start them up.
+
+### Updates
+
+The Docker images are regularly updated, if your images get out of date you can update them to the most recent version with:
+
+```sh
+docker-compose pull
+```
